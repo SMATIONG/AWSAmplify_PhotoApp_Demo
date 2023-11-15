@@ -62,7 +62,7 @@ function Router({user, signOut}) {
           <div className={contentStyle}>
             <Header />
             <hr className={dividerStyle} />
-            <Button title="New Post" onClick={() => updateOverlayVisibility(true)} />
+            <Button title="Create New Post" onClick={() => updateOverlayVisibility(true)} />
             <Switch>
               <Route exact path="/" >
                 <Posts posts={posts} />
